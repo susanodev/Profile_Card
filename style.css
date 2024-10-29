@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 8px;
+}
+
+.profile {
+    background-color: rgb(211, 204, 204);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.473);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.profile img {
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+.profile h1 {
+    /* font-size: 24px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(38, 57, 58);
+}
+
+p {
+    font-size: 20px;
+}
+
+.wid {
+    color: rgb(25, 25, 25);
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.desc {
+    margin: 2px 0px;
+    font-size: 27px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+button:hover, a:hover{
+    opacity: 0.8;
+}
